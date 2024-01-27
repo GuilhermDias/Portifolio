@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #14213d;
+}
+
+.box{
+    margin: auto;
+    margin-top: 70px;
+    border: thick solid #e5e5e5;
+    border-radius: 13px;
+    width: 470px;
+    height: 800px;
+    text-align: center;
+    vertical-align: auto;
+    background-color: rgb(112, 172, 52);
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+
+.box1{
+    background-color: #14213d;
+}
+
+.titulo1{
+    margin-top: 20px;
+    font-family: roboto, sans-serif;
+}
+
+.titulo2{
+    margin-top: 15px;
+    font-family: Raleway, sans-serif;
+}
+
+.fotodeperfil{
+    margin-top: 45px;
+    width: 130px;
+    border: 3px solid #e5e5e5;
+    border-radius: 100px;
+}
+
+.foto{
+    margin-top: 20px;
+    width: 55px;
+}
+
+.boxfamily{
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    border: 2px solid #a9d6e5;
+    border-radius: 5px;
+    background-color: #023047;
+    color: #e5e5e5;
+    font-family: roboto, sans-serif;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+}
+
+.TituloHab{
+    margin-top: 10px;
+}
+
+.fotoHab{
+    margin-top: 20px;
+    width: 45px;
+}
+
+.habilidade{
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: #e5e5e5;
+    font-family: Raleway, sans-serif;
+    font-size: 13px;
+}
